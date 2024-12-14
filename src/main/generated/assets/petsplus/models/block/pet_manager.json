@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/obsidian",
+    "east": "petsplus:block/pet_manager-side",
+    "north": "petsplus:block/pet_manager-side",
+    "particle": "minecraft:block/obsidian",
+    "south": "petsplus:block/pet_manager-side",
+    "up": "petsplus:block/pet_manager-top",
+    "west": "petsplus:block/pet_manager-side"
+  }
+}
