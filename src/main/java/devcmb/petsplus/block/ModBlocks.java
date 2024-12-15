@@ -10,8 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block PET_MANAGER = registerBlock("pet_manager",
-            new PetManager(AbstractBlock.Settings.create().strength(3.0F, 6.0F).requiresTool())
+    public static final Block PET_MANAGER = registerBlock("pet_summoner",
+            new PetSummoner(AbstractBlock.Settings.create().strength(3.0F, 6.0F).requiresTool())
     );
 
     private static Block registerBlock(String name, Block block){

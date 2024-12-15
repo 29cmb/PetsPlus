@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "petsplus:pet_manager"
+          "name": "petsplus:pet_summoner"
         }
       ],
       "rolls": 1.0

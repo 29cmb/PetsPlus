@@ -13,10 +13,10 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class PetManager extends Block {
-    public final Text TITLE = Text.translatable("container.petsplus.pet_manager");
+public class PetSummoner extends Block {
+    public final Text TITLE = Text.translatable("container.petsplus.pet_summoner");
 
-    public PetManager(Settings settings) {
+    public PetSummoner(Settings settings) {
         super(settings);
     }
 
