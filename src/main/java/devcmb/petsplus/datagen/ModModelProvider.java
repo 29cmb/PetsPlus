@@ -2,6 +2,7 @@ package devcmb.petsplus.datagen;
 
 import devcmb.petsplus.PetsPlus;
 import devcmb.petsplus.block.ModBlocks;
+import devcmb.petsplus.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
@@ -28,6 +29,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-
+        itemModelGenerator.register(ModItems.PET_CORE, Models.GENERATED);
     }
 }

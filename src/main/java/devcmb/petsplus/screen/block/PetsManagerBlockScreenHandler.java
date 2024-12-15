@@ -123,7 +123,7 @@ public class PetsManagerBlockScreenHandler extends ScreenHandler {
     public void onClosed(PlayerEntity player) {
         super.onClosed(player);
         for (Slot slot : inputSlots) {
-            if (slot.hasStack()) {
+            if (slot.hasStack() && slot.getStack().getCount() > 0) {
                 player.getInventory().offerOrDrop(slot.getStack());
                 slot.setStack(ItemStack.EMPTY);
             }

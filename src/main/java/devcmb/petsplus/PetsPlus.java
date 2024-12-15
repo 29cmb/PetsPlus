@@ -1,6 +1,8 @@
 package devcmb.petsplus;
 
 import devcmb.petsplus.block.ModBlocks;
+import devcmb.petsplus.item.ModItemGroups;
+import devcmb.petsplus.item.ModItems;
 import devcmb.petsplus.screen.ModScreens;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,7 +16,9 @@ public class PetsPlus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Pets Plus Initialized");
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerModItemGroups();
 		ModScreens.registerModScreens();
 	}
 }

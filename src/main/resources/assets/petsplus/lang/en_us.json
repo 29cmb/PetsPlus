@@ -1,4 +1,6 @@
 {
   "block.petsplus.pet_summoner": "Pet Summoner",
-  "container.petsplus.pet_summoner": "Pet Summoner"
+  "container.petsplus.pet_summoner": "Pet Summoner",
+  "itemgroup.petspls.pets_plus_group": "Pets Plus",
+  "item.petsplus.pet_core": "Pet Core"
 }
