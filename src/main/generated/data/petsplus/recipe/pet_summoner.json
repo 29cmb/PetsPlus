@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "petsplus:pet_core"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RCR",
+    "OOO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "petsplus:pet_summoner"
+  }
+}
